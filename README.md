@@ -1,3 +1,5 @@
+# Customer-service
+
 ![1](https://user-images.githubusercontent.com/52087288/206036728-8ec0468a-be5c-42b5-9605-eb000071a044.PNG)
 
 ![2](https://user-images.githubusercontent.com/52087288/206036849-808cc11e-3e58-4690-9a28-b8879c9e5fd7.PNG)
@@ -6,9 +8,13 @@
 
 ![4](https://user-images.githubusercontent.com/52087288/206036919-9013adf4-9a0c-49ea-9435-d74873f8a149.PNG)
 
+# Inventory Service
+
 ![5](https://user-images.githubusercontent.com/52087288/206036923-69153595-f310-4bdf-a67c-6640e4dfeedb.PNG)
 
 ![6](https://user-images.githubusercontent.com/52087288/206036927-1e2bd72e-3b05-4dcd-9f65-9212f9f7a75a.PNG)
+
+# Order Service
 
 ![7](https://user-images.githubusercontent.com/52087288/206036931-a5c12add-f47a-494e-9387-dd188fa37e3b.PNG)
 
@@ -17,6 +23,10 @@
 ![9](https://user-images.githubusercontent.com/52087288/206036937-80020d52-7021-48a9-940c-0691fe66ea28.PNG)
 
 ![10](https://user-images.githubusercontent.com/52087288/206036906-ed47cfc0-b0dc-4d35-adce-24b3bcf4429a.PNG)
+
+# Consul Config (Billing Service)
+# Vault (Billing Service)
+# Frontend Web avec Angular
 
 ![11](https://user-images.githubusercontent.com/52087288/206036909-eb9ab57d-b7e2-436a-bc24-9701b7182471.PNG)
 
