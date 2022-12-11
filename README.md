@@ -65,3 +65,56 @@
 
 + Les détails d'un order
 ![14](https://user-images.githubusercontent.com/52087288/206036917-28ecc53f-b7e3-4011-a146-e24129bde5f9.PNG)
+
+# Consul Config (Billing Service)
+Aprés le lancement du Consul via la commande 
+```java
+    consul agent -server -bootstrap-expect=1 -data-dir=consul-data -ui -bind=192.168.224.1
+```
++ Ajout des paramétres dans l'interface WEB du Consul
+
+![_1](https://user-images.githubusercontent.com/52087288/206926523-0c7912f1-49cd-4099-abc4-ca755ed77613.PNG)
+
++ La valeur du paramétre "token.accessTokenTimeout" 
+
+![_2](https://user-images.githubusercontent.com/52087288/206926777-c6a4ca0b-9ff5-4959-b530-d5cc93f1c9c8.PNG)
+
++ La valeur du paramétre "token.refreshTokenTimeout" 
+
+![_3](https://user-images.githubusercontent.com/52087288/206926806-e06fb0db-7d28-4380-8518-1c3c62f1c795.PNG)
+
++ L'affichage du paramétres 
+
+![_4](https://user-images.githubusercontent.com/52087288/206926826-57fad63e-db3c-4001-858e-adc4fdef6aae.PNG)
+
+
+# Vault Config (Billing Service)
+Aprés l'exécution du Vault via la commande 
+```java
+    vault server -dev
+```
+![_55](https://user-images.githubusercontent.com/52087288/206926901-75085f4c-84ec-48e4-a2a1-1b929b844a27.PNG)
+
++ L'autentification par la clé Root Token afffichée aprés l'exécution du Vault
+
+![_5](https://user-images.githubusercontent.com/52087288/206927045-42eb6dbe-da4a-4f65-9a93-73c8354bc51a.PNG)
+
++ Page d'acceuil de l'interface web du Vault
+
+![_6](https://user-images.githubusercontent.com/52087288/206927072-ad19fe89-3de5-4930-a304-73d89239277f.PNG)
+
++ L'ajout et l'affichage des paramétres dans la line de commande
+
+![_7](https://user-images.githubusercontent.com/52087288/206927158-dfdc2d0e-93e3-4dc8-a024-6243d3fad47a.PNG)
+
++ L'affichage des paramétres par l'interface Web
+
+![_8](https://user-images.githubusercontent.com/52087288/206927231-8b58fd60-4660-4784-ae32-6655ac2266f7.PNG)
+
++ L'affichage des paramétres du micro-service "billing-service"
+
+![_9](https://user-images.githubusercontent.com/52087288/206927279-8ffe8116-c3c2-4a83-85bb-140b8ca6f1be.PNG)
+
+
+
+
